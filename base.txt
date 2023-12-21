@@ -1,0 +1,25 @@
+base de datos dis ar
+
+tabla clientes
+numerocliente pk
+nombre
+apellido
+telefono
+
+
+tabla productos
+num_producto
+nombre pk
+precio
+
+tabla ventas
+compra numero
+monto venta
+numerocliente fk
+nombre(productos) fk
+
+tabla proveedores
+nombre
+productos
+telefono
+
